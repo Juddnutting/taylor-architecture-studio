@@ -62,14 +62,14 @@ const services = [
       "Accessory dwelling units that maximize your property's potential. From guest houses and home offices to rental units, we navigate zoning requirements and design compact spaces that live large.",
   },
   {
-    title: "Permitting",
-    description:
-      "We manage the full permitting process — preparing code-compliant drawing sets, submitting to the building department, and responding to review comments. We handle the back-and-forth so you don't have to.",
-  },
-  {
     title: "Construction Documents",
     description:
       "Complete, permit-ready documentation for builders. Our detailed construction document sets include structural plans, schedules, sections, and specifications — everything your contractor needs to build with confidence.",
+  },
+  {
+    title: "Permitting",
+    description:
+      "We manage the full permitting process — preparing code-compliant drawing sets, submitting to the building department, and responding to review comments. We handle the back-and-forth so you don't have to.",
   },
 ];
 

@@ -27,7 +27,7 @@ const faqs = [
   {
     question: "How much does it cost to hire an architect?",
     answer:
-      "Architectural fees depend on the scope and complexity of your project. We offer a free initial consultation to understand your goals and provide a clear proposal with transparent pricing. Our fees are typically a percentage of construction cost or a fixed fee — we'll discuss both options and find what works best for your project.",
+      "Architectural fees depend on the scope and complexity of your project. We offer a free initial consultation to understand your goals and provide a clear proposal with transparent pricing. Our fees are typically a percentage of construction cost or an hourly basis with estimated fee ranges — we'll discuss both options and find what works best for your project.",
   },
   {
     question: "Do I really need an architect for my project?",

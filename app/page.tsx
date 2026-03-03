@@ -245,8 +245,7 @@ export default function HomePage() {
           <p className="mt-8 text-stone-400 font-light leading-relaxed max-w-2xl mx-auto">
             Taylor Architecture Studio serves Boulder County, Colorado,
             including Boulder, Lafayette, Louisville, Superior, and the
-            surrounding communities. We specialize in custom residential design
-            We specialize in custom residential design from small ADUs to entire single family residences.
+            surrounding communities. We specialize in custom residential design from small ADUs to entire single family residences.
           </p>
           <Link
             href="/contact"
