@@ -3,7 +3,6 @@ import Image from "next/image";
 import { projects } from "@/data/projects";
 
 export default function AltHomePage() {
-  const featured = projects.slice(0, 4);
   const hero = projects[0];
   const secondary = projects.slice(1, 3);
 
@@ -39,8 +38,8 @@ export default function AltHomePage() {
             <span className="italic font-light text-stone-400">Studio</span>
           </h1>
           <p className="mt-8 text-stone-500 font-light text-sm md:text-base max-w-sm leading-relaxed">
-            Thoughtful residential design. Custom homes, additions, ADUs,
-            and Marshall Fire rebuilds.
+            Thoughtful residential design. Custom homes, additions, and ADUs
+            throughout Boulder County.
           </p>
           <div className="mt-10 flex gap-6">
             <Link
@@ -70,7 +69,7 @@ export default function AltHomePage() {
               className="text-xs tracking-[0.3em] uppercase text-stone-600 mx-12"
             >
               Custom Homes &nbsp;&middot;&nbsp; Additions &nbsp;&middot;&nbsp;
-              ADUs &nbsp;&middot;&nbsp; Marshall Fire Rebuilds
+              ADUs &nbsp;&middot;&nbsp; Permitting
               &nbsp;&middot;&nbsp; Construction Documents
               &nbsp;&middot;&nbsp; Boulder County
             </span>
@@ -228,8 +227,7 @@ export default function AltHomePage() {
               Taylor Architecture Studio is led by Nicole Taylor Nutting — a
               residential architect dedicated to creating homes that are as
               functional as they are beautiful. Based in Boulder County,
-              specializing in custom homes, additions, and Marshall Fire
-              rebuilds.
+              specializing in custom homes, additions, and ADUs.
             </p>
             <Link
               href="/about"
@@ -244,7 +242,7 @@ export default function AltHomePage() {
             {[
               { value: "M.Arch", label: "CU Denver 2011" },
               { value: "11+", label: "Projects Completed" },
-              { value: "6", label: "Marshall Fire Rebuilds" },
+              { value: "6+", label: "New Construction Projects" },
             ].map((stat, i) => (
               <div
                 key={i}
@@ -291,8 +289,8 @@ export default function AltHomePage() {
                 desc: "Accessory dwelling units — guest houses, offices, and rental units.",
               },
               {
-                title: "Marshall Fire Rebuilds",
-                desc: "Compassionate, streamlined rebuilds with fire-resistant design.",
+                title: "Permitting",
+                desc: "Full permitting management — drawings, submissions, and review responses.",
               },
               {
                 title: "Construction Documents",

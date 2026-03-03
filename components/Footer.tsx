@@ -17,7 +17,7 @@ export default function Footer() {
             </div>
             <p className="text-sm leading-relaxed text-stone-500 max-w-xs">
               Thoughtful residential architecture in Boulder County, Colorado.
-              Custom homes, additions, ADUs, and Marshall Fire rebuilds.
+              Custom homes, additions, and ADUs throughout Boulder County.
             </p>
           </div>
 

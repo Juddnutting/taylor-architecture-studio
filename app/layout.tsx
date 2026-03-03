@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     template: "%s | Taylor Architecture Studio",
   },
   description:
-    "Custom home design and Marshall Fire rebuilds in Boulder County, Colorado. Thoughtful residential architecture for new homes, additions, and ADUs. Free consultation.",
+    "Custom home design in Boulder County, Colorado. Thoughtful residential architecture for new homes, additions, and ADUs. Free consultation.",
   openGraph: {
     type: "website",
     locale: "en_US",

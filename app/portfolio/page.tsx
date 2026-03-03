@@ -3,13 +3,13 @@ import { projects } from "@/data/projects";
 import ProjectCard from "@/components/ProjectCard";
 
 export const metadata: Metadata = {
-  title: "Architecture Portfolio | Custom Homes & Marshall Fire Rebuilds",
+  title: "Architecture Portfolio | Custom Homes & Residential Projects",
   description:
-    "View completed residential projects including Marshall Fire rebuilds, custom homes, and renovations in Boulder County, Colorado. Modern farmhouse to contemporary designs.",
+    "View completed residential projects including custom homes, additions, and renovations in Boulder County, Colorado. From ADUs to full single-family residences.",
   openGraph: {
-    title: "Architecture Portfolio | Custom Homes & Marshall Fire Rebuilds",
+    title: "Architecture Portfolio | Custom Homes & Residential Projects",
     description:
-      "View completed residential projects including Marshall Fire rebuilds, custom homes, and renovations in Boulder County, Colorado.",
+      "View completed residential projects including custom homes, additions, and renovations in Boulder County, Colorado.",
   },
 };
 
@@ -26,9 +26,8 @@ export default function PortfolioPage() {
             Portfolio
           </h1>
           <p className="mt-6 text-lg text-stone-500 font-light max-w-2xl leading-relaxed">
-            A selection of residential projects across Boulder County — from
-            Marshall Fire rebuilds to custom homes, additions, and new
-            construction.
+            A selection of residential projects across Boulder County — custom homes,
+            additions, new construction, and ADUs.
           </p>
         </div>
       </section>

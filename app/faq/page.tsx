@@ -35,9 +35,9 @@ const faqs = [
       "While not every project requires an architect, working with one ensures your design is thoughtful, functional, code-compliant, and tailored to your needs. For additions, renovations, and new construction in Boulder County, an architect helps navigate complex zoning and building codes while creating spaces that truly work for your family.",
   },
   {
-    question: "Do you help with the Marshall Fire rebuild process?",
+    question: "Do you handle permitting?",
     answer:
-      "Yes. We've helped numerous families rebuild after the Marshall Fire and understand the unique challenges involved — from navigating the rebuild permitting process to incorporating fire-resistant design principles. We bring a compassionate, efficient approach to every rebuild project.",
+      "Yes. We prepare all required construction documents and manage the full permitting process — submitting to the building department, responding to review comments, and seeing the permit through to approval. We handle the back-and-forth so you can focus on the bigger picture.",
   },
   {
     question: "What areas do you serve?",

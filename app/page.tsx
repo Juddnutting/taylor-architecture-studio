@@ -17,7 +17,7 @@ export default function HomePage() {
             "@type": "LocalBusiness",
             name: "Taylor Architecture Studio",
             description:
-              "Custom home design and Marshall Fire rebuilds in Boulder County, Colorado. Thoughtful residential architecture for new homes, additions, and ADUs.",
+              "Custom home design in Boulder County, Colorado. Thoughtful residential architecture for new homes, additions, and ADUs.",
             url: "https://taylorarchitecturestudio.com",
             telephone: "",
             address: {
@@ -67,7 +67,7 @@ export default function HomePage() {
             </h1>
             <p className="mt-6 text-lg md:text-xl text-stone-300 font-light max-w-xl leading-relaxed">
               Custom residential design in Boulder County, Colorado. New homes,
-              additions, ADUs, and Marshall Fire rebuilds.
+              additions, ADUs, and more.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Link
@@ -151,8 +151,8 @@ export default function HomePage() {
                 Taylor Architecture Studio is led by Nicole Taylor Nutting, a
                 residential architect dedicated to creating homes that are as
                 functional as they are beautiful. Based in Boulder County, we
-                specialize in custom homes, additions, ADUs, and Marshall Fire
-                rebuilds — always with a deep respect for the Colorado landscape
+                specialize in custom homes, additions, and ADUs — always with a
+                deep respect for the Colorado landscape
                 and the people who call it home.
               </p>
               <Link
@@ -201,9 +201,9 @@ export default function HomePage() {
                   "Complete, permit-ready documentation for builders, including structural details and specifications.",
               },
               {
-                title: "Marshall Fire Rebuilds",
+                title: "Permitting",
                 description:
-                  "Helping Boulder County families rebuild with fire-resistant design and a compassionate, streamlined process.",
+                  "We manage the full permitting process — preparing code-compliant drawings, submitting to the building department, and handling review comments.",
               },
               {
                 title: "Consultations",
@@ -246,7 +246,7 @@ export default function HomePage() {
             Taylor Architecture Studio serves Boulder County, Colorado,
             including Boulder, Lafayette, Louisville, Superior, and the
             surrounding communities. We specialize in custom residential design
-            and have helped numerous families rebuild after the Marshall Fire.
+            We specialize in custom residential design from small ADUs to entire single family residences.
           </p>
           <Link
             href="/contact"

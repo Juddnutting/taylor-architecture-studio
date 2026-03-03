@@ -4,7 +4,7 @@ import ContactForm from "@/components/ContactForm";
 export const metadata: Metadata = {
   title: "Contact Taylor Architecture Studio | Boulder County Architect",
   description:
-    "Ready to start your project? Contact Taylor Architecture Studio for custom home design, additions, and Marshall Fire rebuilds in Boulder, Lafayette, Longmont & Louisville CO.",
+    "Ready to start your project? Contact Taylor Architecture Studio for custom home design and additions in Boulder, Lafayette, Longmont & Louisville CO.",
   openGraph: {
     title: "Contact Taylor Architecture Studio | Boulder County Architect",
     description:

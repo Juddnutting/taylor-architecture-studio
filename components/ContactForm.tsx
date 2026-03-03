@@ -119,7 +119,6 @@ export default function ContactForm() {
             <option value="addition">Addition</option>
             <option value="renovation">Renovation</option>
             <option value="adu">ADU / Accessory Dwelling Unit</option>
-            <option value="marshall-fire-rebuild">Marshall Fire Rebuild</option>
             <option value="other">Other</option>
           </select>
         </div>

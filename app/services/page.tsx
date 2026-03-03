@@ -62,9 +62,9 @@ const services = [
       "Accessory dwelling units that maximize your property's potential. From guest houses and home offices to rental units, we navigate zoning requirements and design compact spaces that live large.",
   },
   {
-    title: "Marshall Fire Rebuilds",
+    title: "Permitting",
     description:
-      "We've helped numerous Boulder County families rebuild after the Marshall Fire. We understand the unique challenges — from navigating the rebuild process to incorporating fire-resistant design — and bring a compassionate, streamlined approach to every project.",
+      "We manage the full permitting process — preparing code-compliant drawing sets, submitting to the building department, and responding to review comments. We handle the back-and-forth so you don't have to.",
   },
   {
     title: "Construction Documents",
