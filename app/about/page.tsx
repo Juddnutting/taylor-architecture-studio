@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About Nicole Taylor Nutting | Boulder County Residential Architect",
   description:
-    "Meet Nicole Taylor Nutting, founder of Taylor Architecture Studio. Dedicated to creating thoughtful, functional homes in Boulder County, Colorado. Licensed architect.",
+    "Meet Nicole Taylor Nutting, founder of Taylor Architecture Studio. Dedicated to creating thoughtful, functional homes in Boulder County, Colorado. Licensed Architect.",
   openGraph: {
     title: "About Nicole Taylor Nutting | Boulder County Residential Architect",
     description:
@@ -66,9 +66,9 @@ export default function AboutPage() {
                   decisions can make a big difference.
                 </p>
                 <p>
-                  Nicole earned her Master of Architecture from CU Denver in
-                  2011. She relocated to Colorado from California in 2005 to
-                  study Environmental Design. Her expertise developed under Jeff
+                  Nicole relocated to Colorado from California in 2005 to
+                  study Environmental Design and earned her Master of Architecture 
+                  from CU Denver in 2011. Her expertise developed under Jeff
                   VanSambeek at Lodestone Design Group, where she gained deep
                   experience in residential design and learned to guide projects
                   seamlessly from initial concept through permit approval.
@@ -82,8 +82,9 @@ export default function AboutPage() {
                   their lives.
                 </p>
                 <p>
-                  Outside the studio, Nicole has been married for 16 years and
-                  has three children. She enjoys exploring Colorado through
+                  Outside the studio, Nicole enjoys spending time with her husband
+                  of 17 years and wrangling their three childen.
+                  She enjoys exploring Colorado through
                   hiking, skiing, swimming, and camping. Her hobbies include
                   gardening, cooking, and soaking in everything Colorado&apos;s
                   outdoor lifestyle has to offer.

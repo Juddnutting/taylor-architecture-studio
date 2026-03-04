@@ -87,14 +87,23 @@ export default async function ProjectPage({ params }: PageProps) {
               </p>
 
               <div className="mt-8 space-y-4">
-                {project.longDescription.split("\n\n").map((paragraph, i) => (
-                  <p
-                    key={i}
-                    className="text-stone-600 font-light leading-relaxed"
-                  >
-                    {paragraph}
-                  </p>
-                ))}
+                {project.longDescription.split("\n\n").map((paragraph, i) =>
+                  paragraph.startsWith("\u201c") || paragraph.startsWith('"') ? (
+                    <blockquote
+                      key={i}
+                      className="border-l-2 border-stone-300 pl-5 italic text-stone-500 font-light leading-relaxed"
+                    >
+                      {paragraph}
+                    </blockquote>
+                  ) : (
+                    <p
+                      key={i}
+                      className="text-stone-600 font-light leading-relaxed"
+                    >
+                      {paragraph}
+                    </p>
+                  )
+                )}
               </div>
             </div>
 

@@ -19,7 +19,7 @@ const processSteps = [
     number: "01",
     title: "Existing Conditions",
     description:
-      "We start by understanding your site and your existing home. This includes site surveys, topography assessment, regulatory requirements verification, photo documentation, measurements, and 3D modeling using Autodesk Revit. This phase establishes the foundation for design by identifying parameters and opportunities.",
+      "We start by understanding your site and your existing home. This includes but is not limited to site surveys, topography assessment, regulatory requirements verification, photo documentation, measurements, and 3D modeling using Autodesk Revit. This phase establishes the foundation for design by identifying parameters and opportunities.",
     image: "/images/services/existing-conditions.jpg",
   },
   {
@@ -33,7 +33,7 @@ const processSteps = [
     number: "03",
     title: "Design Development",
     description:
-      "We coordinate with consultants including structural engineers, HVAC specialists, cabinet designers, and civil engineers. This phase focuses on detailed specification, code compliance verification, early conflict identification and resolution, and regular client communication for decision-making.",
+      "We coordinate with consultants including structural engineers, HVAC specialists, interior designers, and civil engineers. This phase focuses on detailed specification, code compliance verification, early conflict identification and resolution, and regular client communication for decision-making.",
     image: "/images/services/design-development.jpg",
   },
   {

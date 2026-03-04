@@ -25,14 +25,14 @@ const faqs = [
       "Timelines vary by project scope. A simple addition might take 3-4 months of design work, while a custom home from scratch can take 6-12 months before breaking ground. We'll give you a realistic timeline during our initial consultation based on your specific project.",
   },
   {
-    question: "How much does it cost to hire an architect?",
+    question: "How much does it cost to hire an Architect?",
     answer:
       "Architectural fees depend on the scope and complexity of your project. We offer a free initial consultation to understand your goals and provide a clear proposal with transparent pricing. Our fees are typically a percentage of construction cost or an hourly basis with estimated fee ranges — we'll discuss both options and find what works best for your project.",
   },
   {
-    question: "Do I really need an architect for my project?",
+    question: "Do I really need an Architect for my project?",
     answer:
-      "While not every project requires an architect, working with one ensures your design is thoughtful, functional, code-compliant, and tailored to your needs. For additions, renovations, and new construction in Boulder County, an architect helps navigate complex zoning and building codes while creating spaces that truly work for your family.",
+      "While not every project requires an Architect, working with one ensures your design is thoughtful, functional, code-compliant, and tailored to your needs. For additions, renovations, and new construction in Boulder County, an Architect helps navigate complex zoning and building codes while creating spaces that truly work for your family.",
   },
   {
     question: "Do you handle permitting?",
@@ -54,11 +54,6 @@ const faqs = [
     answer:
       "Come with any inspiration images, a rough idea of your budget range, and a sense of what's working and not working in your current home. Don't worry about having everything figured out — that's what we're here for. We'll help you refine your vision during the design process.",
   },
-  {
-    question: "Do you handle permitting?",
-    answer:
-      "Yes. We prepare all required construction documents and submit them to the relevant building department on your behalf. We manage the review process and address any comments or revisions needed to secure your building permit.",
-  },
 ];
 
 export default function FAQPage() {
@@ -74,7 +69,7 @@ export default function FAQPage() {
             Frequently Asked Questions
           </h1>
           <p className="mt-6 text-lg text-stone-500 font-light max-w-2xl leading-relaxed">
-            Everything you need to know about working with an architect. Don&apos;t
+            Everything you need to know about working with an Architect. Don&apos;t
             see your question here?{" "}
             <Link
               href="/contact"

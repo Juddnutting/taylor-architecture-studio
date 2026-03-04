@@ -49,7 +49,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="relative h-[90vh] min-h-[600px] flex items-end -mt-20">
         <Image
-          src="/images/projects/966-arapahoe/01.jpg"
+          src="/images/projects/miami-way/01.jpg"
           alt="Custom residential architecture in Boulder County, Colorado"
           fill
           className="object-cover"
@@ -149,7 +149,7 @@ export default function HomePage() {
               </h2>
               <p className="mt-6 text-stone-600 font-light leading-relaxed">
                 Taylor Architecture Studio is led by Nicole Taylor Nutting, a
-                residential architect dedicated to creating homes that are as
+                residential Architect dedicated to creating homes that are as
                 functional as they are beautiful. Based in Boulder County, we
                 specialize in custom homes, additions, and ADUs — always with a
                 deep respect for the Colorado landscape

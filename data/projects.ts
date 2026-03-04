@@ -42,14 +42,14 @@ The ground floor redesign created an expansive layout merging kitchen, dining, a
     location: "Boulder, CO",
     type: "Remodel & Addition",
     shortDescription:
-      "A residential transformation that nearly doubled a 1976 home's size, converting a dark, rectangular structure into a bright, contemporary residence.",
+      "From cramped and dark to open and luminous — a 1976 Boulder home reimagined with soaring vaulted ceilings, a new primary suite, and a completely transformed main level.",
     longDescription: `This residential transformation nearly doubled a 1976 home's size, converting a dark, rectangular structure into a bright, contemporary residence. The addition increased the plate height on the main level, introducing soaring vaulted ceilings throughout the upper level.
 
 Key improvements included a new primary suite wing and two-car garage, an open kitchen, living, and dining configuration, an additional powder bath, and enhanced natural lighting throughout.`,
     tags: ["Remodel", "Addition", "Residential"],
     role: "Project Architect (while at Lodestone Design Group)",
     builder: "KBC Remodel",
-    heroImage: "/images/projects/folsom-street/01.jpg",
+    heroImage: "/images/projects/folsom-street/modern-farmhouse.png",
     galleryImages: [
       "/images/projects/folsom-street/01.jpg",
       "/images/projects/folsom-street/02.jpg",
@@ -65,10 +65,14 @@ Key improvements included a new primary suite wing and two-car garage, an open k
     location: "Louisville, CO",
     type: "Marshall Fire Rebuild",
     shortDescription:
-      "A Marshall Fire rebuild where the homeowners designed their dream home from the ashes, creating a space where loved ones gravitate to cook and gather.",
-    longDescription: `After losing their residence in the Marshall Fire, these homeowners worked with Taylor Architecture Studio to design their ideal home. The family sought to create a space that would become the heart of their community once again.
+      "A Marshall Fire rebuild designed with care and artistry — a home that has become a true gathering place for family and friends.",
+    longDescription: `After losing their residence in the Marshall Fire, these homeowners worked with Nicole to design a home that would provide a safe refuge and loving space to bring their family back together.
 
-As the owners shared: "Our loved ones gravitate to this house to cook... There is space for work, hobbies, and rest." The design prioritizes open gathering spaces, natural light, and functional areas that support daily life and connection.`,
+As the owners shared in their own words:
+
+"After the Marshall Fire, Nicole worked with care to help us design a home that would provide a safe refuge and loving space to bring us together. She certainly achieved our vision with artistry and skill! Our loved ones gravitate to this house to cook a hot meal or sit and visit. There is space for work, hobbies, and rest all efficiently planned. Nicole worked with our builder and structural engineer to balance costs and function. Most importantly, she truly listened and cared about our project. I highly recommend Taylor Architecture Studios to help you plan a home that you will cherish forever!"
+
+The design prioritizes open gathering spaces, natural light, and functional areas that support daily life and connection — built with both care and craft.`,
     tags: ["Marshall Fire Rebuild", "New Construction", "Residential"],
     role: "Project Architect (while at Lodestone Design Group)",
     builder: "Gen3 Homes, LLC",
@@ -157,10 +161,10 @@ The project focused on streamlining the residential layout while maintaining con
     location: "Louisville, CO",
     type: "Marshall Fire Rebuild",
     shortDescription:
-      "One of the first homes completed after the Marshall Fire — balancing budget and efficiency to get these clients back home as fast as possible.",
-    longDescription: `After the Marshall Fire, the goal for these clients was to get back in as fast as possible. The architectural team modified a base plan to include an additional garage space and back office per client needs.
+      "One of the first homes completed in Louisville after the Marshall Fire — a thoughtful, efficient design that got this family back home quickly without compromising quality.",
+    longDescription: `Speed and efficiency were the priorities for this rebuild. The team modified a base plan to include an additional garage space and dedicated back office tailored to the clients' daily needs.
 
-Balancing budget and efficiency, this was one of the first homes completed after the fire — a testament to the team's ability to move quickly without sacrificing quality or thoughtful design.`,
+The result stands as one of the first completed homes in the neighborhood — a testament to what's possible when budget discipline and thoughtful design work hand in hand. Getting families home fast, without cutting corners, was the mission.`,
     tags: ["Marshall Fire Rebuild", "New Construction", "Residential"],
     role: "Project Architect (while at Lodestone Design Group)",
     builder: "Gen3 Homes, LLC",
