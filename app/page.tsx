@@ -139,6 +139,15 @@ export default function HomePage() {
             </div>
 
             <div>
+              <div className="mb-8">
+                <Image
+                  src="/images/logo.png"
+                  alt="Taylor Architecture Studio"
+                  width={160}
+                  height={160}
+                  className="object-contain"
+                />
+              </div>
               <p className="text-xs font-light tracking-[0.2em] uppercase text-stone-400 mb-3">
                 About the Studio
               </p>

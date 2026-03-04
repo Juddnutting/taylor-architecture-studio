@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
@@ -17,17 +18,26 @@ export default function ContactPage() {
     <>
       {/* Hero */}
       <section className="pt-12 md:pt-20 pb-16 md:pb-24 px-6 lg:px-8">
-        <div className="mx-auto max-w-7xl">
-          <p className="text-xs font-light tracking-[0.2em] uppercase text-stone-400 mb-3">
-            Get in Touch
-          </p>
-          <h1 className="text-4xl md:text-5xl font-light text-stone-900 tracking-tight">
-            Start a Conversation
-          </h1>
-          <p className="mt-6 text-lg text-stone-500 font-light max-w-2xl leading-relaxed">
-            Ready to start your project? Fill out the form below and we&apos;ll
-            be in touch within one business day.
-          </p>
+        <div className="mx-auto max-w-7xl flex items-start justify-between">
+          <div>
+            <p className="text-xs font-light tracking-[0.2em] uppercase text-stone-400 mb-3">
+              Get in Touch
+            </p>
+            <h1 className="text-4xl md:text-5xl font-light text-stone-900 tracking-tight">
+              Start a Conversation
+            </h1>
+            <p className="mt-6 text-lg text-stone-500 font-light max-w-2xl leading-relaxed">
+              Ready to start your project? Fill out the form below and we&apos;ll
+              be in touch within one business day.
+            </p>
+          </div>
+          <Image
+            src="/images/logo.png"
+            alt="Taylor Architecture Studio"
+            width={140}
+            height={140}
+            className="object-contain hidden md:block flex-shrink-0 ml-8"
+          />
         </div>
       </section>
 
