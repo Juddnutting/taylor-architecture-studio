@@ -53,10 +53,10 @@ export default function Footer() {
             <div className="flex flex-col gap-2 text-sm text-stone-500">
               <p>Boulder County, Colorado</p>
               <a
-                href="mailto:info@taylorarchitecturestudio.com"
+                href="mailto:nicole@taylorarchitecturestudio.com"
                 className="hover:text-white transition-colors duration-200"
               >
-                info@taylorarchitecturestudio.com
+                nicole@taylorarchitecturestudio.com
               </a>
             </div>
           </div>

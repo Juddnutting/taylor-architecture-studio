@@ -159,14 +159,14 @@ export default async function ProjectPage({ params }: PageProps) {
       <section className="pb-24 md:pb-32 px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
-            {project.galleryImages.slice(1).map((image, i) => (
+            {project.galleryImages.map((image, i) => (
               <div
                 key={i}
                 className="relative aspect-[4/3] overflow-hidden bg-stone-100"
               >
                 <Image
                   src={image}
-                  alt={`${project.title} - Image ${i + 2}`}
+                  alt={`${project.title} - Image ${i + 1}`}
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
