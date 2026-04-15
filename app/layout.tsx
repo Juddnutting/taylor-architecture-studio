@@ -23,6 +23,18 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: "Taylor Architecture Studio",
+    images: [
+      {
+        url: "https://taylorarchitecturestudio.com/images/projects/miami-way/01.jpg",
+        width: 1200,
+        height: 800,
+        alt: "Taylor Architecture Studio — Residential Architecture in Boulder County, CO",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["https://taylorarchitecturestudio.com/images/projects/miami-way/01.jpg"],
   },
   robots: {
     index: true,

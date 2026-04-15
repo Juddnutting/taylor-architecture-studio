@@ -15,7 +15,26 @@ export default function HomePage() {
 
   return (
     <>
-      {/* JSON-LD Local Business Schema */}
+      {/* JSON-LD WebSite Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "@id": "https://taylorarchitecturestudio.com/#website",
+            name: "Taylor Architecture Studio",
+            url: "https://taylorarchitecturestudio.com",
+            description:
+              "Residential architecture firm in Boulder County, Colorado specializing in custom home design, additions, ADUs, and permitting.",
+            publisher: {
+              "@id": "https://taylorarchitecturestudio.com/#business",
+            },
+          }),
+        }}
+      />
+
+      {/* JSON-LD ProfessionalService Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

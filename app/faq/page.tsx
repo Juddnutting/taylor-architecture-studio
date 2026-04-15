@@ -62,6 +62,23 @@ const faqs = [
 export default function FAQPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: faqs.map((faq) => ({
+              "@type": "Question",
+              name: faq.question,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: faq.answer,
+              },
+            })),
+          }),
+        }}
+      />
       {/* Hero */}
       <section className="pt-12 md:pt-20 pb-16 md:pb-24 px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">

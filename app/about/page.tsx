@@ -19,6 +19,58 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "@id": "https://taylorarchitecturestudio.com/about/#nicole-taylor-nutting",
+            name: "Nicole Taylor Nutting",
+            givenName: "Nicole",
+            familyName: "Nutting",
+            jobTitle: "Principal Architect",
+            email: "nicole@taylorarchitecturestudio.com",
+            telephone: "+13038153463",
+            url: "https://taylorarchitecturestudio.com/about/",
+            image: "https://taylorarchitecturestudio.com/images/about/nicole.jpg",
+            description:
+              "Nicole Taylor Nutting is the founder and principal architect of Taylor Architecture Studio in Boulder, CO, specializing in residential architecture including custom homes, additions, renovations, and ADU design throughout Boulder County.",
+            knowsAbout: [
+              "Residential Architecture",
+              "Custom Home Design",
+              "ADU Design",
+              "Construction Documents",
+              "Building Permitting",
+              "Home Additions and Renovations",
+              "Marshall Fire Rebuilds",
+            ],
+            alumniOf: [
+              {
+                "@type": "CollegeOrUniversity",
+                name: "University of Colorado Denver",
+                sameAs: "https://www.wikidata.org/wiki/Q1572516",
+              },
+              {
+                "@type": "CollegeOrUniversity",
+                name: "University of Colorado Boulder",
+                sameAs: "https://www.wikidata.org/wiki/Q503330",
+              },
+            ],
+            hasCredential: {
+              "@type": "EducationalOccupationalCredential",
+              credentialCategory: "license",
+              name: "Licensed Architect, State of Colorado",
+              recognizedBy: { "@type": "Organization", name: "State of Colorado" },
+            },
+            worksFor: {
+              "@type": "ProfessionalService",
+              "@id": "https://taylorarchitecturestudio.com/#business",
+              name: "Taylor Architecture Studio",
+            },
+          }),
+        }}
+      />
       {/* Hero */}
       <section className="pt-12 md:pt-20 pb-16 md:pb-24 px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
