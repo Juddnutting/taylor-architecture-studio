@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Architecture Portfolio | Custom Homes & Residential Projects",
   description:
     "View completed residential projects including custom homes, additions, and renovations in Boulder County, Colorado. From ADUs to full single-family residences.",
+  alternates: {
+    canonical: "https://taylorarchitecturestudio.com/portfolio/",
+  },
   openGraph: {
     title: "Architecture Portfolio | Custom Homes & Residential Projects",
     description:

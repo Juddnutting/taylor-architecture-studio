@@ -1,7 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { getFeaturedProjects } from "@/data/projects";
 import ProjectCard from "@/components/ProjectCard";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://taylorarchitecturestudio.com/",
+  },
+};
 
 export default function HomePage() {
   const featuredProjects = getFeaturedProjects(3);
@@ -14,34 +21,54 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "LocalBusiness",
+            "@type": "ProfessionalService",
+            "@id": "https://taylorarchitecturestudio.com/#business",
             name: "Taylor Architecture Studio",
             description:
-              "Custom home design in Boulder County, Colorado. Thoughtful residential architecture for new homes, additions, and ADUs.",
+              "Taylor Architecture Studio is a residential architecture firm in Boulder, CO, specializing in custom home design, additions, renovations, ADU design, construction documents, and permitting throughout Boulder County.",
             url: "https://taylorarchitecturestudio.com",
-            telephone: "",
+            telephone: "+13038153463",
+            email: "nicole@taylorarchitecturestudio.com",
             address: {
               "@type": "PostalAddress",
               addressLocality: "Boulder",
               addressRegion: "CO",
+              postalCode: "80302",
               addressCountry: "US",
             },
             geo: {
               "@type": "GeoCoordinates",
-              latitude: 40.015,
-              longitude: -105.2705,
+              latitude: 40.01499,
+              longitude: -105.27054,
             },
             areaServed: [
-              "Boulder",
-              "Lafayette",
-              "Louisville",
-              "Superior",
-              "Longmont",
-              "Erie",
+              { "@type": "City", name: "Boulder" },
+              { "@type": "City", name: "Lafayette" },
+              { "@type": "City", name: "Louisville" },
+              { "@type": "City", name: "Superior" },
+              { "@type": "City", name: "Longmont" },
+              { "@type": "City", name: "Erie" },
             ],
-            priceRange: "$$$$",
-            image: "https://taylorarchitecturestudio.com/images/og-image.jpg",
-            sameAs: [],
+            priceRange: "$$$",
+            founder: {
+              "@type": "Person",
+              "@id": "https://taylorarchitecturestudio.com/about/#nicole-taylor-nutting",
+              name: "Nicole Taylor Nutting",
+            },
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Architecture Services",
+              itemListElement: [
+                { "@type": "Offer", itemOffered: { "@type": "Service", name: "Custom Home Design" } },
+                { "@type": "Offer", itemOffered: { "@type": "Service", name: "Additions and Renovations" } },
+                { "@type": "Offer", itemOffered: { "@type": "Service", name: "ADU Design" } },
+                { "@type": "Offer", itemOffered: { "@type": "Service", name: "Construction Documents" } },
+                { "@type": "Offer", itemOffered: { "@type": "Service", name: "Permitting" } },
+              ],
+            },
+            sameAs: [
+              "https://www.google.com/maps/place/Taylor+Architecture+Studio/@40.1691564,-105.9076127,9z/data=!3m1!4b1!4m6!3m5!1s0x9d2b83a326daa17:0xc3bcfe76abef2124!8m2!3d40.169977!4d-105.248217!16s%2Fg%2F11w98rv6qt",
+            ],
           }),
         }}
       />

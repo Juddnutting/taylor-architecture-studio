@@ -7,6 +7,9 @@ export const metadata: Metadata = {
     "Architectural Services | Custom Home Design Boulder Colorado",
   description:
     "Full-service residential architecture: custom home design, additions, ADUs, and construction documents. Serving Boulder, Lafayette, Louisville, Longmont & Boulder County CO.",
+  alternates: {
+    canonical: "https://taylorarchitecturestudio.com/services/",
+  },
   openGraph: {
     title: "Architectural Services | Custom Home Design Boulder Colorado",
     description:

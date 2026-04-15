@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "About Nicole Taylor Nutting | Boulder County Residential Architect",
   description:
     "Meet Nicole Taylor Nutting, founder of Taylor Architecture Studio. Dedicated to creating thoughtful, functional homes in Boulder County, Colorado. Licensed Architect.",
+  alternates: {
+    canonical: "https://taylorarchitecturestudio.com/about/",
+  },
   openGraph: {
     title: "About Nicole Taylor Nutting | Boulder County Residential Architect",
     description:

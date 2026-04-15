@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Contact Taylor Architecture Studio | Boulder County Architect",
   description:
     "Ready to start your project? Contact Taylor Architecture Studio for custom home design and additions in Boulder, Lafayette, Longmont & Louisville CO.",
+  alternates: {
+    canonical: "https://taylorarchitecturestudio.com/contact/",
+  },
   openGraph: {
     title: "Contact Taylor Architecture Studio | Boulder County Architect",
     description:
@@ -91,6 +94,19 @@ export default function ContactPage() {
                     Boulder, Lafayette, Louisville, Superior, Longmont, Erie,
                     and surrounding communities.
                   </p>
+                </div>
+                <div>
+                  <h3 className="text-xs font-light tracking-[0.15em] uppercase text-stone-400 mb-2">
+                    Reviews
+                  </h3>
+                  <a
+                    href="https://g.page/r/CSQh76t2_rzDEBM/review"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-stone-900 font-light text-sm hover:text-stone-600 transition-colors border-b border-stone-300 hover:border-stone-600 pb-0.5"
+                  >
+                    Leave us a Google review
+                  </a>
                 </div>
               </div>
             </div>

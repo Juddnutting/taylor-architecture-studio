@@ -22,6 +22,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: `${project.title} | ${project.type} - ${project.location}`,
     description: project.shortDescription,
+    alternates: {
+      canonical: `https://taylorarchitecturestudio.com/portfolio/${slug}/`,
+    },
     openGraph: {
       title: `${project.title} | Taylor Architecture Studio`,
       description: project.shortDescription,

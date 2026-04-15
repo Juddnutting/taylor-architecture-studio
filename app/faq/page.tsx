@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "FAQ | Working With an Architect in Boulder County",
   description:
     "Common questions about working with Taylor Architecture Studio. Learn about our process, timelines, costs, and what to expect when designing your custom home in Boulder County.",
+  alternates: {
+    canonical: "https://taylorarchitecturestudio.com/faq/",
+  },
   openGraph: {
     title: "FAQ | Working With an Architect in Boulder County",
     description:
