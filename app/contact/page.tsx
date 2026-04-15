@@ -72,11 +72,19 @@ export default function ContactPage() {
                     Phone
                   </h3>
                   <a
-                    href="tel:303-815-3463"
+                    href="tel:+13038153463"
                     className="text-stone-900 font-light hover:text-stone-600 transition-colors"
                   >
                     (303) 815-3463
                   </a>
+                </div>
+                <div>
+                  <h3 className="text-xs font-light tracking-[0.15em] uppercase text-stone-400 mb-2">
+                    Hours
+                  </h3>
+                  <p className="text-stone-900 font-light">
+                    Mon – Fri, 8 AM – 5 PM
+                  </p>
                 </div>
                 <div>
                   <h3 className="text-xs font-light tracking-[0.15em] uppercase text-stone-400 mb-2">
